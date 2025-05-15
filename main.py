@@ -14,6 +14,13 @@ from weather_blurbs import get_weather_blurb_for_day
 console = Console()
 
 def main():
+    # main.py (top of your input loop)
+city = input("Enter a city (e.g., Charlotte): ").strip()
+
+# Try to auto-fix missing comma
+if ',' not in city and len(city.split()) == 2:
+    city = city.replace(' ', ', ')
+
     synapt = Memory()
     from prepare_city import prepare_city
 
