@@ -14,12 +14,11 @@ from weather_blurbs import get_weather_blurb_for_day
 console = Console()
 
 def main():
-    # main.py (top of your input loop)
-city = input("Enter a city (e.g., Charlotte): ").strip()
+    city = input("Enter a city (e.g., Charlotte): ").strip()
 
-# Try to auto-fix missing comma
-if ',' not in city and len(city.split()) == 2:
-    city = city.replace(' ', ', ')
+    # Try to auto-fix missing comma
+    if ',' not in city and len(city.split()) == 2:
+        city = city.replace(' ', ', ')
 
     synapt = Memory()
     from prepare_city import prepare_city
@@ -49,7 +48,7 @@ if ',' not in city and len(city.split()) == 2:
     else:
         print("\n📊 No accuracy stats available yet.")
 
-    # Detailed weather logic
+    # Weather condition assessments
     if any(term in lower_weather for term in ["blizzard", "heavy snow", "snowstorm"]):
         print("SYNAPT: Severe blizzard detected. High risk of closures and loss of visibility.")
     elif any(term in lower_weather for term in ["freezing rain", "icy mix", "sleet", "freezing drizzle"]):
