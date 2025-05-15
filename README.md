@@ -100,6 +100,7 @@ synapt-weather-core/
 Tyrek Long
 Computer Information Systems Major
 South Carolina National Guard | Cybersecurity & AI Enthusiast
-🔗 GitHub @reekoooooooo
+# 🔗 GitHub @reekoooooooo
+## Linkedin https://www.linkedin.com/in/tyrek-long-218b98260/
 📜 License
 MIT License — free to build on, fork, or remix. Give credit where due.
