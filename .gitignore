@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore caches, logs, and model files
+__pycache__/
+*.pkl
+*.log
+*.csv
+*.json
+
+# Ignore OS and IDE stuff
+.DS_Store
+*.swp
+.idea/
+.vscode/
