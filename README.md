@@ -3,11 +3,12 @@ A predictive machine learning AI forecasting tool by Tyrek Long
 # SYNAPT Weather Core ☁️🧠
 
 
-Core Module: SYNAPT Weather Core ☁️🌐🧠
+## Core Module: SYNAPT Weather Core ☁️🌐🧠
 
 A terminal-based weather intelligence system that delivers real-time forecasts, hourly breakdowns, and ML-based predictions for any city — powered by Open-Meteo and geolocation data.
 
 🔧 Part of SYNAPT — a modular AI system for real-world simulation and environmental awareness.
+# SYNAPT Forecast Engine is a modular weather intelligence tool powered by a hybrid of machine learning and real-time data APIs. It includes a basic AI model trained on historical weather to generate predictive insights.
 
 
 ---
@@ -45,12 +46,14 @@ pip install -r requirements.txt
 pip install requests pandas geopy rich
 ### 3. Run the Program
 
-Choose the mode:
+## Choose the mode:
 
-- `python ui.py` → Simple weather forecast with blurbs
-- `python main.py` → Full AI-powered SYNAPT system (includes ML + predictions)
+- `python ui.py` → Simple weather forecast with nice ui
+- `python main.py` → Full AI-powered SYNAPT system (includes ML + predictions + blurbs)
 
+---
 ### 🧠 Behind the Scenes
+
 - `This module uses:
 Tool	Purpose
 Open-Meteo	Free weather forecast API
@@ -58,7 +61,7 @@ Geopy	Convert city name → lat/lon
 Pandas	Process weather data
 Rich	Styled terminal interface
 Python 3.9+	Core language`
-🧠 Coming Soon (Full SYNAPT System)
+🧠 Good things to add
 Module	Status
 🌦️ Weather Forecast	✅ Complete
 ⏱ Hourly Forecast	✅ Complete
