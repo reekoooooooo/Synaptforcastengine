@@ -1,10 +1,14 @@
 # Synaptforcastengine
-A predictive machine learning ai forecasting thing by Tyrek Long
+A predictive machine learning AI forecasting tool by Tyrek Long
 # SYNAPT Weather Core ☁️🧠
 
-A terminal-based weather intelligence module that fetches real-time forecasts and hourly breakdowns for any city using the Open-Meteo API and geolocation services.
 
-> 🔧 Part of **SYNAPT** — a modular AI system for environmental forecasting and real-world simulation.
+Core Module: SYNAPT Weather Core ☁️🌐🧠
+
+A terminal-based weather intelligence system that delivers real-time forecasts, hourly breakdowns, and ML-based predictions for any city — powered by Open-Meteo and geolocation data.
+
+🔧 Part of SYNAPT — a modular AI system for real-world simulation and environmental awareness.
+
 
 ---
 
@@ -29,34 +33,31 @@ A terminal-based weather intelligence module that fetches real-time forecasts an
 
 ---
 
-## 🚀 Getting Started
-
+🚀 Getting Started
 ### 1. Clone the Repository
+git clone https://github.com/reekoooooooo/Synaptforcastengine.git
+cd Synaptforcastengine
 
-```bash
-git clone https://github.com/your-username/synapt-weather-core.git
-cd synapt-weather-core
-2. Install Dependencies
-Install required Python packages:
-
-
+### 2. Install Dependencies
+Install with requirements.txt:
 pip install -r requirements.txt
-Or manually:
-
-
+## Or install manually:
 pip install requests pandas geopy rich
-3. Run the Program
+### 3. Run the Program
 
-python ui.py
-🧠 Behind the Scenes
-This module uses:
+Choose the mode:
 
+- `python ui.py` → Simple weather forecast with blurbs
+- `python main.py` → Full AI-powered SYNAPT system (includes ML + predictions)
+
+### 🧠 Behind the Scenes
+- `This module uses:
 Tool	Purpose
 Open-Meteo	Free weather forecast API
 Geopy	Convert city name → lat/lon
 Pandas	Process weather data
 Rich	Styled terminal interface
-Python 3.9+	Core language
+Python 3.9+	Core language`
 🧠 Coming Soon (Full SYNAPT System)
 Module	Status
 🌦️ Weather Forecast	✅ Complete
