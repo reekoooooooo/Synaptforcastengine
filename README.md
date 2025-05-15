@@ -65,14 +65,17 @@ Python 3.9+	Core language
 
 
 # 🧠 Good things to add
-🔧 Module Status
-🌦 Weather Forecast	✅ Complete
-🕒 Hourly Forecast	✅ Complete
-🧠 AI Rain Prediction	🧪 In Progress
-📊 Forecast vs AI Compare	🛠 Coming Soon
-💾 Memory + Trend Storage	✅ Prototype
-🌐 Multi-City Awareness	🔜 Coming Soon
-🖥 Web UI (Streamlit?)	🛠 Long-Term
+
+🧠 AI Rain Prediction	
+
+📊 Forecast vs AI Compare	
+
+💾 Memory + Trend Storage	
+
+🌐 Multi-City Awareness	
+
+🖥 Web UI (Streamlit?)	
+
 
 ---
 
