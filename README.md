@@ -57,10 +57,15 @@ pip install requests pandas geopy rich
 This module uses:
 
 Tool	Purpose
+
 Open-Meteo	Free weather forecast API
+
 Geopy	Convert city name → lat/lon
+
 Pandas	Process weather data
+
 Rich	Styled terminal interface
+
 Python 3.9+	Core language
 
 
