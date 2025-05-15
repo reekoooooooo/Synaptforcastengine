@@ -52,37 +52,43 @@ pip install requests pandas geopy rich
 - `python main.py` → Full AI-powered SYNAPT system (includes ML + predictions + blurbs)
 
 ---
-### 🧠 Behind the Scenes
 
-- `This module uses:
+# 🧠 Behind the Scenes
+This module uses:
+
 Tool	Purpose
 Open-Meteo	Free weather forecast API
 Geopy	Convert city name → lat/lon
 Pandas	Process weather data
 Rich	Styled terminal interface
-Python 3.9+	Core language`
-🧠 Good things to add
-Module	Status
-🌦️ Weather Forecast	✅ Complete
-⏱ Hourly Forecast	✅ Complete
-🧠 AI Rain Prediction	🔄 In Progress
-📈 Forecast vs AI Compare	🔜 Coming Soon
-🗃️ Memory + Trend Storage	✅ Prototype
-🌐 Multi-City Awareness	🔜 Coming Soon
-🖥️ Web UI (Streamlit?)	🔜 Long-Term
-📦 Project Structure
+Python 3.9+	Core language
 
+
+# 🧠 Good things to add
+🔧 Module Status
+🌦 Weather Forecast	✅ Complete
+🕒 Hourly Forecast	✅ Complete
+🧠 AI Rain Prediction	🧪 In Progress
+📊 Forecast vs AI Compare	🛠 Coming Soon
+💾 Memory + Trend Storage	✅ Prototype
+🌐 Multi-City Awareness	🔜 Coming Soon
+🖥 Web UI (Streamlit?)	🛠 Long-Term
+
+---
+
+# project structure
 synapt-weather-core/
-├── ui.py                 ← Main terminal interface
-├── forecast.py           ← Daily + hourly weather logic
-├── fetch_data.py         ← Raw weather text puller
-├── memory.py             ← Simple in-session memory
-├── predict.py            ← AI prediction engine (basic)
-├── train_real_model.py   ← ML model trainer
-├── requirements.txt      ← Python dependencies
-├── README.md             ← You're here
-└── screenshots/          ← UI previews
-✨ Author
+│── ui.py              ← Main terminal interface  
+│── forecast.py        ← Daily + hourly weather logic  
+│── fetch_data.py      ← Raw weather text puller  
+│── memory.py          ← Simple in-session memory  
+│── predict.py         ← AI prediction engine (basic)  
+│── train_real_model.py← ML model trainer  
+│── requirements.txt   ← Python dependencies  
+│── README.md          ← You're here  
+│── screenshots/       ← UI previews  
+
+# ✨ Author
 Tyrek Long
 Computer Information Systems Major
 South Carolina National Guard | Cybersecurity & AI Enthusiast
